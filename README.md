@@ -3,15 +3,14 @@ Análise exploratória e limpeza de dados de um catálogo de livros utilizando P
 
 📋 Sobre o Projeto
 Este projeto realiza uma análise detalhada de um conjunto de dados de livros para identificar padrões e preferências dos leitores. Através de técnicas de análise exploratória de dados (EDA) e limpeza de dados, buscamos extrair insights valiosos que podem auxiliar em sistemas de recomendação de livros.
-🎯 Objetivos
 
+🎯 Objetivos
 Realizar análise exploratória de dados (EDA) de um catálogo de livros
 Identificar padrões e tendências nas preferências dos leitores
 Limpar e preparar os dados para análises futuras
 Gerar insights acionáveis sobre o comportamento dos leitores
 
 🛠️ Tecnologias Utilizadas
-
 Python 3.x - Linguagem de programação principal
 Pandas - Manipulação e análise de dados
 NumPy - Operações numéricas
@@ -24,6 +23,7 @@ book-recommendation-analysis/
 ├── preferencia_leitores.py      # Script principal de análise
 ├── .gitignore                   # Arquivos ignorados pelo Git
 └── README.md                    # Documentação do projeto
+
 📊 Dataset
 O dataset utilizado neste projeto foi obtido do Kaggle - Goodreads Books, contendo dados reais de livros da plataforma Goodreads.
 O arquivo books.csv contém informações sobre diversos livros, incluindo (mas não limitado a):
@@ -40,6 +40,7 @@ Número de avaliações
 Outras métricas relevantes
 
 Fonte dos dados: Kaggle - Goodreads Books Dataset
+
 🚀 Como Executar
 Pré-requisitos
 Certifique-se de ter o Python 3.x instalado em sua máquina. Você pode verificar executando:
@@ -57,32 +58,29 @@ bashpip install pandas numpy matplotlib seaborn
 Execução
 Execute o script de análise:
 bashpython preferencia_leitores.py
+
 🔍 Análises Realizadas
 O projeto inclui as seguintes análises:
 
 Análise Descritiva
-
 Estatísticas básicas do dataset
 Identificação de valores ausentes
 Distribuição de variáveis
 
 
 Limpeza de Dados
-
 Tratamento de valores nulos
 Remoção de duplicatas
 Padronização de formatos
 
 
 Análise de Preferências
-
 Gêneros mais populares
 Autores mais lidos
 Tendências de avaliação
 
 
 Insights
-
 Padrões de comportamento dos leitores
 Correlações entre variáveis
 Recomendações baseadas em dados
